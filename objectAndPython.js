@@ -67,3 +67,5 @@ switch(6) {
 }
 
 console.log(text);
+
+console.log( 10>5 ? "This is true" : 'This is false.');  // output --> This is true
