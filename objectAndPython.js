@@ -44,9 +44,13 @@ if ((age1 >= 18) && (age1<= 35)){
 // Swithch statements
 // differentiate between weekday vs. weekend
 // 0 Sunday
-// day 0 --> Sunday
-// day 6 --> Saturday
-// day 4 --> Thursday --> Wednesday
+// day 0 --> Sunday --> weekend
+// day 1 --> Monday --> weekday
+// day 2 --> Tuesday --> weekday
+// day 3 --> Wednesday --> weekday
+// day 4 --> Thursday --> weekday
+// day 5 --> Friday --> weekday
+// day 6 -->  Saturday --> weekend
 
 switch(6) {
     case 0:
